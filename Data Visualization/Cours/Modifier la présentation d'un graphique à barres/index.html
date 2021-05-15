@@ -6,13 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://d3js.org/d3.v6.min.js"></script>
-    <title>Mettre à jour dynamiquement la hauteur d'un élément</title>
+    <title>Modifier la présentation d'un graphique à barres</title>
 </head>
-
 <style>
     .bar {
         width: 25px;
         height: 100px;
+        /* Add your code below this line */
+        margin: 2px;
+
+        /* Add your code above this line */
         display: inline-block;
         background-color: blue;
     }
@@ -27,10 +30,7 @@
             .enter()
             .append("div")
             .attr("class", "bar")
-            // Add your code below this line
-            .style("height",(d)=>d+"px")
-
-        // Add your code above this line
+            .style("height", (d) => (d * 10 + "px")) // Change this line
     </script>
 </body>
 
