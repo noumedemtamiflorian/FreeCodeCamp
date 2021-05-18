@@ -1,3 +1,6 @@
+Utiliser avec une connexion internet car il y'a D3 a importe
+
+
 Data is all around us, but it doesn't mean much without shape or context.
 
 In the Data Visualization Certification, you'll build charts, graphs, and maps to present different types of data with the D3.js library.
